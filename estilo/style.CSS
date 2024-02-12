@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+body{
+    height: 100vh; 
+    background-image: url(../imagens/fundo-madeira.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+main{
+    height: 100vh;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+}
+
+nav{
+    width: 67px;
+    margin: 0px 10px 0px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.icones{
+    box-sizing: border-box;
+    margin: 15px 0px 0px 0px;
+    height: 60px;
+    width: 60px;
+    background-color: blue;
+    border-radius: 100%;
+}
+
+.icones:hover{
+    border: 3px solid rgba(255, 255, 255, 0.788);
+    transform: translate(-5px, -5px);
+    transition: transform 0.3s, border 0.2s;
+    box-shadow: 6px 4px 3px rgba(0, 0, 0, 0.411);
+}
+
+#home{
+    background: black url(../imagens/logo-home.jpg) center / cover no-repeat;
+}
+#youtube{
+    background: black url(../imagens/logo-youtube.jpg) center / cover no-repeat;
+}
+#github{
+    background: black url(../imagens/logo-github.jpg) center / cover no-repeat;
+}
+#instagram{
+    background: black url(../imagens/logo-instagram.jpg) center / cover no-repeat;
+}
+#twitter{
+    background: black url(../imagens/logo-twitter.jpg) center / cover no-repeat;
+}
+#facebook{
+    background: black url(../imagens/logo-facebook.jpg) center / cover no-repeat;
+}
+
+article{
+    background: url(../imagens/frame-iphone.png) center / 310px no-repeat;
+    margin: auto;
+    height: 700px;
+    width: 400px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+iframe{
+
+    width: 265px;
+    height: 470px;
+}
